@@ -23,6 +23,30 @@ npm test
 npm run test:original
 ```
 
+## AI Tools Usage
+
+### Tools Used
+- ChatGPT (OpenAI) - Version 4
+
+### How AI Was Used
+1. Code analysis and suggestions for refactoring
+2. Architecture recommendations (Clean Architecture/DDD)
+3. Test generation assistance
+
+### Suggestions Accepted
+- Use of enums for RequesterType
+- Separation of concerns with value objects
+- Implementation of validation and rules layers
+
+### Suggestions Rejected or Modified
+- date-fns library (rejected to minimize dependencies)
+- Abstract repository class (modified to interface-based approach)
+
+### Validation Process
+- All suggestions were manually reviewed
+- Unit tests written for each component
+- Code passes typecheck and all tests
+
 ## Database
 
 Copy `.env.example` to `.env` if you want to keep the database URL in your local environment.
